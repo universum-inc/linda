@@ -1,0 +1,11 @@
+logging:
+  level: info
+  file: ./logs/server.log
+  max-file-size: 5
+  max-backups: 10
+  max-age: 14
+  compress-rotated-log: true
+  time-format: "2006-01-02 15:04:05.000"
+  standard-output: stderr
+database:
+  dataSourceName: "postgres://postgres:password123@localhost:5433/linda"

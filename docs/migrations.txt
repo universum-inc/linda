@@ -1,0 +1,5 @@
+goose postgres "postgres://postgres:password123@localhost:5433/linda" status - статус миграций для конкретной ноды
+goose up-by-one - добавить 1 следующую миграцию
+goose up-to 20170506082420 - мигрировать на конкретную версию
+goose up - применить все миграции
+
